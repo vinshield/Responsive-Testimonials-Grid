@@ -35,13 +35,12 @@ body {
 
 .container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 1fr 1fr;
   grid-gap: 25rem;
   grid-template-areas:
-    "item1 item1 item2 item3"
-    "item4 item5 item5 item3";
-
+    "item1 item1 item2 item5"
+    "item3 item4 item4 item5";
   width: 80vw;
   margin: auto;
 }
