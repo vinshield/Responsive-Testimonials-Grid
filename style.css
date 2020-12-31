@@ -151,7 +151,7 @@ body {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 500px) {
   .container {
     margin: 20% auto;
     grid-template-columns: 1fr;
