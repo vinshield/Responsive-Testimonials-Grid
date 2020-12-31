@@ -49,11 +49,6 @@ body {
   border-radius: 8rem;
   color: var(--white);
   padding: 25px 35px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  flex-shrink: 0;
-  flex-grow: 0;
 }
 
 .large-text {
@@ -107,13 +102,13 @@ body {
 
 .item4 {
   grid-area: item4;
-  background-color: var(--white);
-  color: var(--very-dark-blackish-blue);
+  background-color: var(--very-dark-blackish-blue);
 }
 
 .item5 {
   grid-area: item5;
-  background-color: var(--very-dark-blackish-blue);
+  background-color: var(--white);
+  color: var(--very-dark-blackish-blue);
 }
 
 .profile {
@@ -142,6 +137,7 @@ body {
 .attribution a {
   color: #94C841;
 }
+
 @media (max-width: 800px) {
   .container {
     margin: 10%;
