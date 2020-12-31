@@ -143,3 +143,29 @@ body {
 .attribution a {
   color: #94C841;
 }
+@media (max-width: 800px) {
+  .container {
+    margin: 10%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "item1 item2"
+      "item3 item4"
+      "item5 item5"
+    ;
+  }
+}
+
+@media (max-width: 375px) {
+  .container {
+    margin: 20% auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "item1"
+      "item2"
+      "item3"
+      "item4"
+      "item5"
+    ;
+  }
