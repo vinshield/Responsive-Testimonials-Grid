@@ -46,6 +46,7 @@ body {
   border-radius: 8rem;
   color: var(--white);
   padding: 25px 35px;
+  box-shadow: 25px 25px 50px -10px rgba(0, 0, 0, 0.15);
 }
 
 .large-text {
